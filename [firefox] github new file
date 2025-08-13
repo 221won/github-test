@@ -1,0 +1,16 @@
+Hello
+github create new file test
+const greetings = {
+    "한국어": "안녕하세요",
+    "영어": "Hello",
+    "일본어": "こんにちは (Konnichiwa)",
+    "중국어": "你好 (Nǐ hǎo)",
+    "스페인어": "Hola",
+    "프랑스어": "Bonjour",
+    "독일어": "Guten Tag",
+    "이탈리아어": "Ciao"
+};
+
+for (const lang in greetings) {
+    console.log(`${lang}: ${greetings[lang]}`);
+}
